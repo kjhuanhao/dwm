@@ -1,14 +1,13 @@
 ## My dwm
-============================
-dwm is an extremely fast, small, and dynamic window manager for X.
+Dwm is an extremely fast, small, and dynamic window manager for X.
 
+My scripts in [kjhuanhao/scripts](https://github.com/kjhuanhao/scripts)
 ## Requirements
-------------
+
 In order to build dwm you need the Xlib header files.
 
 
 ## Installation
-------------
 Edit config.mk to match your local setup (dwm is installed into
 the /usr/local namespace by default).
 
@@ -18,7 +17,6 @@ necessary as root):
     make clean install
 
 ### Patches applied
----------------
 - [dwm-alpha-20180613-b69c870.diff](https://dwm.suckless.org/patches/alpha/)
 - [dwm-autostart-20161205-bb3bd6f.diff](https://dwm.suckless.org/patches/autostart/)
 - [dwm-awesomebar-20191003-80e2a76.diff](https://dwm.suckless.org/patches/awesomebar/)
@@ -64,14 +62,14 @@ If you use the login manager, copy the files under others to the `/usr/share/xse
 - [ ] feh
 - [ ] picom
 
-### about wallpaper
+### About wallpaper
 
 You need `mkdir ~/Pictures/wallpaper`
 
 make it look this :
 
 ```
-ls ~/Pictures
+ls ~/Pictures/wallpaper
    xx.jpg
    xx.png
    xx.more...
@@ -81,7 +79,7 @@ Then you can change the wp-change.
 
 ### Fonts
 
-- [ ] Source Code Pro(可选)
+- [ ] Source Code Pro
 
 - [ ] powerline
 
